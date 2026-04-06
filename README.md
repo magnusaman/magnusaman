@@ -32,7 +32,7 @@ class AmanAnand:
 <tr>
 <td width="50%" valign="top">
 
-**Alpha Arena** — *Raeth.ai*
+**Alpha Arena** | *Raeth.ai*
 
 A benchmark platform that evaluates how well frontier LLMs can trade real financial markets autonomously across US equities and crypto.
 
@@ -41,7 +41,7 @@ A benchmark platform that evaluates how well frontier LLMs can trade real financ
 </td>
 <td width="50%" valign="top">
 
-**MEVL-STP** — *IIT Roorkee x Salford*
+**MEVL-STP** | *IIT Roorkee x Salford*
 
 Multi-encoder scene text spotting pipeline fusing 6 frozen vision encoders with VLM recognition. 85.86% H-mean on CTW1500.
 
@@ -52,7 +52,7 @@ Multi-encoder scene text spotting pipeline fusing 6 frozen vision encoders with 
 <tr>
 <td width="50%" valign="top">
 
-**Raeth Auction** — [Code](https://github.com/magnusaman/raeth-Auction)
+**Raeth Auction** | [Code](https://github.com/magnusaman/raeth-Auction)
 
 Live auction platform where LLM agents compete with strategic bidding, budget management, and real-time state updates.
 
@@ -61,7 +61,7 @@ Live auction platform where LLM agents compete with strategic bidding, budget ma
 </td>
 <td width="50%" valign="top">
 
-**Wildfire EWS** — *RGIPT x UNB Canada*
+**Wildfire EWS** | *RGIPT x UNB Canada*
 
 Comparative evaluation of wildfire early warning systems across 15 countries using multisensor satellite data and predictive modelling.
 
