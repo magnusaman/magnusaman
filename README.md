@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:F97316&height=220&section=header&text=Aman%20Anand&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20Engineer%20%E2%80%A2%20Researcher%20%E2%80%A2%20Builder&descAlignY=60&descSize=18" width="100%"/>
 
 <a href="https://github.com/magnusaman">
-  <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=800&color=F97316&center=true&vCenter=true&width=600&lines=AI+Engineer+%40+Raeth.ai;ECCV+2026+%7C+MEVL-STP;Building+Alpha+Arena" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=800&color=F97316&center=true&vCenter=true&width=600&lines=AI+Engineer+%40+Raeth.ai;ECCV+2026+%7C+ISPRS+2026;Building+Alpha+Arena" alt="Typing SVG"/>
 </a>
 
 <p>
@@ -24,8 +24,13 @@ class AmanAnand:
 
     building = [
         "Alpha Arena  — LLMs trading real financial markets",
-        "MEVL-STP    — multi-encoder scene text spotting (ECCV 2026)",
+        "MEVL-STP    — multi-encoder scene text spotting",
         "Raeth Auction — AI agents in live auctions",
+    ]
+
+    publications = [
+        "MEVL-STP — ECCV 2026 (submitted)",
+        "Wildfire Early Warning Systems — ISPRS Congress 2026 (accepted)",
     ]
 ```
 
