@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:F97316&height=220&section=header&text=Aman%20Anand&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20Engineer%20%E2%80%A2%20Researcher%20%E2%80%A2%20Builder&descAlignY=60&descSize=18" width="100%"/>
 
 <a href="https://github.com/magnusaman">
-  <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=800&color=F97316&center=true&vCenter=true&width=600&lines=AI+Engineer+%40+Raeth.ai;ECCV+2026+%7C+ISPRS+2026;Building+Alpha+Arena" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=800&color=F97316&center=true&vCenter=true&width=600&lines=AI+Engineer+%40+Raeth.ai;ECCV+2026+%7C+ISPRS+2026;Building+LLM-Agent+Arenas" alt="Typing SVG"/>
 </a>
 
 <p>
@@ -19,54 +19,77 @@
 
 ```python
 class AmanAnand:
-    role        = "AI Engineer @ Raeth.ai"
+    role        = "AI Engineer @ Raeth.ai (Mar 2026 - Present)"
+    research    = "Research Intern, IIT Roorkee x University of Salford, UK"
     education   = "B.Tech IT, RGIPT (2022-2026)"
-    research    = ["IIT Roorkee", "University of Salford, UK"]
-    interests   = ["LLMs", "Vision-Language Models", "Agentic AI", "Quant Trading"]
+    builds      = ["LLM-Agent Arenas", "Scene Text Spotting", "Vision-Language Models"]
+    interests   = ["LLMs", "Agentic AI", "VLMs", "Quant Trading"]
 ```
 
 ---
 
 ### what I'm building
 
+At Raeth.ai I build and operate live LLM-agent arenas — benchmarks where frontier models act autonomously in real markets. Built two from scratch, now own and run all four.
+
 <table>
 <tr>
 <td width="50%" valign="top">
 
-**Alpha Arena** | *Raeth.ai*
+**Trader Arena** | [trader.raeth.ai](https://trader.raeth.ai)
 
-A benchmark platform that evaluates how well frontier LLMs can trade real financial markets autonomously across US equities and crypto.
+8 frontier LLMs autonomously trade US equities, crypto, and Indian options on $100K paper accounts. Built from scratch.
 
-`FastAPI` `Next.js` `PostgreSQL` `LiteLLM` `Alpaca`
+`FastAPI` `Next.js` `PostgreSQL` `LiteLLM`
 
 </td>
 <td width="50%" valign="top">
 
-**MEVL-STP** | *IIT Roorkee x Salford*
+**IPL Arena** | [ipl.raeth.ai](https://ipl.raeth.ai)
 
-Multi-encoder scene text spotting pipeline fusing 6 frozen vision encoders with VLM recognition. 85.86% H-mean on CTW1500.
+LLMs (Opus 4.7, GPT-5.5) place live bets on IPL cricket matches via the Stake odds feed. Built from scratch.
 
-`PyTorch` `CLIP` `DINOv2` `Qwen3-VL` `LoRA`
+`FastAPI` `React` `PostgreSQL` `LiteLLM`
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-**Raeth Auction** | [Code](https://github.com/magnusaman/raeth-Auction)
+**Quant Arena** | [quantarena.raeth.ai](https://quantarena.raeth.ai)
 
-Live auction platform where LLM agents compete with strategic bidding, budget management, and real-time state updates.
+Quant-strategy trading arena. Develop and maintain the platform end to end.
+
+`FastAPI` `Next.js` `Supabase` `Docker`
+
+</td>
+<td width="50%" valign="top">
+
+**Prediction Arena** | [prediction.raeth.ai](https://prediction.raeth.ai)
+
+LLM forecasting and prediction-market arena. Develop and maintain the platform.
+
+`FastAPI` `Next.js` `PostgreSQL` `Docker`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**Auction Arena** | [auction.raeth.ai](https://auction.raeth.ai)
+
+Live-bidding platform where LLM agents compete with strategic bidding, budget management, and real-time state. Built from scratch.
 
 `TypeScript` `Next.js` `Supabase` `Docker`
 
 </td>
 <td width="50%" valign="top">
 
-**Wildfire EWS** | *RGIPT x UNB Canada*
+**MEVL-STP** | *IIT Roorkee x Salford*
 
-Comparative evaluation of wildfire early warning systems across 15 countries using multisensor satellite data and predictive modelling.
+Scene text spotting with vision-language models — multi-encoder pipeline fusing frozen vision encoders with VLM recognition.
 
-`Remote Sensing` `MODIS` `VIIRS` `Sentinel`
+`PyTorch` `Qwen3-VL` `Transformers` `LoRA`
 
 </td>
 </tr>
@@ -79,7 +102,8 @@ Comparative evaluation of wildfire early warning systems across 15 countries usi
 | Paper | Venue | Status |
 |:------|:------|:-------|
 | **MEVL-STP**: Multi-Encoder and VLM for Scene Text Spotting | ECCV 2026 | Submitted |
-| **Wildfire EWS**: Multisensor Comparison Across Countries | ISPRS Congress 2026 | Accepted |
+| **Habitat Suitability Mapping** using Satellite Imagery and CLI — New Brunswick, Canada | ISPRS 2026 | Accepted |
+| **Advancing Wildfire Early Warning Systems**: A Multisensor and Predictive Modeling Comparison Across Countries | ISPRS 2026 | Accepted |
 
 ---
 
@@ -98,16 +122,17 @@ Comparative evaluation of wildfire early warning systems across 15 countries usi
 **AI / ML**
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![Transformers](https://img.shields.io/badge/Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![LoRA](https://img.shields.io/badge/LoRA%20Fine--tuning-5C3EE8?style=flat-square&logo=pytorchlightning&logoColor=white)
+![VLM](https://img.shields.io/badge/Vision--Language%20Models-4B8BBE?style=flat-square&logo=openai&logoColor=white)
+![LiteLLM](https://img.shields.io/badge/LiteLLM-7C3AED?style=flat-square&logo=python&logoColor=white)
+![OpenRouter](https://img.shields.io/badge/OpenRouter-6467F2?style=flat-square&logo=router&logoColor=white)
 
 **Web & Backend**
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
 **Infra & Tools**
