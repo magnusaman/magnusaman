@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:F97316&height=220&section=header&text=Aman%20Anand&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20Engineer%20%E2%80%A2%20Researcher%20%E2%80%A2%20Builder&descAlignY=60&descSize=18" width="100%"/>
 
 <a href="https://github.com/magnusaman">
-  <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=800&color=F97316&center=true&vCenter=true&width=600&lines=AI+Engineer+%40+Raeth.ai;ECCV+2026+%7C+ISPRS+2026;Building+LLM-Agent+Arenas" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=800&color=F97316&center=true&vCenter=true&width=600&lines=AI+Engineer+%40+Raeth.ai;CVPR+2027+%7C+ISPRS+2026;Building+LLM-Agent+Arenas" alt="Typing SVG"/>
 </a>
 
 <p>
@@ -101,7 +101,7 @@ Scene text spotting with vision-language models — multi-encoder pipeline fusin
 
 | Paper | Venue | Status |
 |:------|:------|:-------|
-| **MEVL-STP**: Multi-Encoder and VLM for Scene Text Spotting | ECCV 2026 | Submitted |
+| **MEVL-STP**: Multi-Encoder and VLM for Scene Text Spotting | CVPR 2027 | Submitted |
 | **Habitat Suitability Mapping** using Satellite Imagery and CLI — New Brunswick, Canada | ISPRS 2026 | Accepted |
 | **Advancing Wildfire Early Warning Systems**: A Multisensor and Predictive Modeling Comparison Across Countries | ISPRS 2026 | Accepted |
 
