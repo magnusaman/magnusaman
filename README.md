@@ -9,6 +9,7 @@
 <p>
   <a href="https://amans-folio.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-f97316?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/></a>
   <a href="https://linkedin.com/in/aman7anand"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://scholar.google.com/citations?user=80Gc9PYAAAAJ"><img src="https://img.shields.io/badge/Google%20Scholar-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Google Scholar"/></a>
   <a href="mailto:amananand7080@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
   <img src="https://komarev.com/ghpvc/?username=magnusaman&label=Views&color=f97316&style=for-the-badge" alt="Profile views"/>
 </p>
@@ -79,7 +80,7 @@ Wildfire early-warning maturity across 15 countries, habitat suitability (MaxEnt
 
 | Paper | Venue | Status |
 |:------|:------|:-------|
-| **MEVL-STP**: Multi-Encoder and Vision Language Model for Arbitrarily Shaped Scene Text Spotting | arXiv:2609.28857, CVPR 2027 | Preprint |
+| **MEVL-STP**: Multi-Encoder and Vision Language Model for Arbitrarily Shaped Scene Text Spotting | CVPR 2027 (arXiv:2609.28857) | Submitted |
 | **Wildfire Early Warning Systems**: A Multisensor and Predictive Modelling Comparison Across Countries with a Canadian Perspective | ISPRS Archives XLIX-M-1-2026 | Published |
 | **Habitat Suitability Mapping** Using Satellite Imagery and CLI: New Brunswick, Canada | ISPRS Congress 2026, Toronto | Abstract presented |
 | **AksharaSTR**: Akshara-Level Scene Text Spotting for Indic Scripts | CVPR 2027 | In preparation |
