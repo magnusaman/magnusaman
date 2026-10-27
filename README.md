@@ -1,15 +1,15 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:F97316&height=220&section=header&text=Aman%20Anand&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20Engineer%20%E2%80%A2%20Researcher%20%E2%80%A2%20Builder&descAlignY=60&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:F97316&height=220&section=header&text=Aman%20Anand&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Computer%20Vision%20%E2%80%A2%20Vision-Language%20Models%20%E2%80%A2%20Researcher&descAlignY=60&descSize=18" width="100%"/>
 
 <a href="https://github.com/magnusaman">
-  <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=800&color=F97316&center=true&vCenter=true&width=600&lines=AI+Engineer+%40+Raeth.ai;CVPR+2027+%7C+ISPRS+2026;Building+LLM-Agent+Arenas" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=800&color=F97316&center=true&vCenter=true&width=600&lines=Computer+Vision+%26+VLM+Researcher;Scene+Text+%7C+fMRI+%7C+Remote+Sensing;Reviewer+%40+Pattern+Recognition" alt="Typing SVG"/>
 </a>
 
 <p>
   <a href="https://amans-folio.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-f97316?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/></a>
   <a href="https://linkedin.com/in/aman7anand"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:amanformal7@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="mailto:amananand7080@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
   <img src="https://komarev.com/ghpvc/?username=magnusaman&label=Views&color=f97316&style=for-the-badge" alt="Profile views"/>
 </p>
 
@@ -19,77 +19,55 @@
 
 ```python
 class AmanAnand:
-    role        = "AI Engineer @ Raeth.ai (Mar 2026 - Present)"
-    research    = "Research Intern, IIT Roorkee x University of Salford, UK"
-    education   = "B.Tech IT, RGIPT (2022-2026)"
-    builds      = ["LLM-Agent Arenas", "Scene Text Spotting", "Vision-Language Models"]
-    interests   = ["LLMs", "Agentic AI", "VLMs", "Quant Trading"]
+    research    = "Computer vision and vision-language models: combining pretrained models and noisy data, evaluated honestly"
+    now         = "Research Intern, IIT (ISM) Dhanbad x University of Salford  |  Independent: AksharaSTR (Indic scene text)"
+    before      = "AI Engineer @ Raeth.ai (Mar - Aug 2026)"
+    education   = "B.Tech IT, RGIPT (Nov 2022 - Jan 2026), CPI 7.69/10"
+    reviewing   = "Pattern Recognition (Elsevier)"
 ```
 
 ---
 
-### what I'm building
-
-At Raeth.ai I build and operate live LLM-agent arenas — benchmarks where frontier models act autonomously in real markets. Built two from scratch, now own and run all four.
+### research
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-**Trader Arena** | [trader.raeth.ai](https://trader.raeth.ai)
+**MEVL-STP** | [arXiv:2609.28857](https://arxiv.org/abs/2609.28857)
 
-8 frontier LLMs autonomously trade US equities, crypto, and Indian options on $100K paper accounts. Built from scratch.
+Six frozen vision encoders (CLIP, DINOv2, SigLIP, EVA-CLIP, SAM, ConvNeXt) fused through a trainable feature pyramid, with a LoRA-tuned Qwen3-VL-8B for recognition. CTW1500: 91.99 detection F-measure, 85.86 end-to-end H-mean, no synthetic pretraining. First author.
 
-`FastAPI` `Next.js` `PostgreSQL` `LiteLLM`
-
-</td>
-<td width="50%" valign="top">
-
-**IPL Arena** | [ipl.raeth.ai](https://ipl.raeth.ai)
-
-LLMs (Opus 4.7, GPT-5.5) place live bets on IPL cricket matches via the Stake odds feed. Built from scratch.
-
-`FastAPI` `React` `PostgreSQL` `LiteLLM`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**Quant Arena** | [quantarena.raeth.ai](https://quantarena.raeth.ai)
-
-Quant-strategy trading arena. Develop and maintain the platform end to end.
-
-`FastAPI` `Next.js` `Supabase` `Docker`
+`PyTorch` `Qwen3-VL` `LoRA`
 
 </td>
 <td width="50%" valign="top">
 
-**Prediction Arena** | [prediction.raeth.ai](https://prediction.raeth.ai)
+**AksharaSTR** | *independent*
 
-LLM forecasting and prediction-market arena. Develop and maintain the platform.
+Reads one akshara (visual syllable) per step instead of Unicode codepoints. One 23M-parameter model covers 11 Indic scripts and English; the full system reads 50.9% of BSTD words end to end vs 36% for the published pipeline.
 
-`FastAPI` `Next.js` `PostgreSQL` `Docker`
+`PyTorch` `Scene Text` `Indic Scripts`
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-**Auction Arena** | [auction.raeth.ai](https://auction.raeth.ai)
+**Multi-subject fMRI reconstruction** | *with IIT Roorkee*
 
-Live-bidding platform where LLM agents compete with strategic bidding, budget management, and real-time state. Built from scratch.
+Extended Brain-IT (ICLR 2026) to five LAION-fMRI participants; scans from several people are fused at test time in one forward pass, no retraining. Removed an evaluation bias with cross-fitting.
 
-`TypeScript` `Next.js` `Supabase` `Docker`
+`PyTorch` `fMRI`
 
 </td>
 <td width="50%" valign="top">
 
-**MEVL-STP** | *IIT Roorkee x Salford*
+**Geospatial ML** | *RGIPT x Univ. of New Brunswick*
 
-Scene text spotting with vision-language models — multi-encoder pipeline fusing frozen vision encoders with VLM recognition.
+Wildfire early-warning maturity across 15 countries, habitat suitability (MaxEnt, Random Forest) and forest-degradation mapping with Sentinel, Landsat, LiDAR and AlphaEarth embeddings.
 
-`PyTorch` `Qwen3-VL` `Transformers` `LoRA`
+`Sentinel` `Landsat` `AlphaEarth`
 
 </td>
 </tr>
@@ -101,9 +79,19 @@ Scene text spotting with vision-language models — multi-encoder pipeline fusin
 
 | Paper | Venue | Status |
 |:------|:------|:-------|
-| **MEVL-STP**: Multi-Encoder and VLM for Scene Text Spotting | CVPR 2027 | Submitted |
-| **Habitat Suitability Mapping** using Satellite Imagery and CLI — New Brunswick, Canada | ISPRS 2026 | Accepted |
-| **Advancing Wildfire Early Warning Systems**: A Multisensor and Predictive Modeling Comparison Across Countries | ISPRS 2026 | Accepted |
+| **MEVL-STP**: Multi-Encoder and Vision Language Model for Arbitrarily Shaped Scene Text Spotting | arXiv:2609.28857, CVPR 2027 | Preprint |
+| **Wildfire Early Warning Systems**: A Multisensor and Predictive Modelling Comparison Across Countries with a Canadian Perspective | ISPRS Archives XLIX-M-1-2026 | Published |
+| **Habitat Suitability Mapping** Using Satellite Imagery and CLI: New Brunswick, Canada | ISPRS Congress 2026, Toronto | Abstract presented |
+| **AksharaSTR**: Akshara-Level Scene Text Spotting for Indic Scripts | CVPR 2027 | In preparation |
+| **Multi-Subject Fusion for fMRI Image Reconstruction** | CVPR 2027 | In preparation |
+
+Also co-author of two Preprints.org manuscripts (forest degradation; wetland mapping), not peer reviewed. Attended ECCV 2026, Malmo.
+
+---
+
+### previously at Raeth.ai
+
+Built **Trader Arena** ([trader.raeth.ai](https://trader.raeth.ai)) and **IPL Arena** ([ipl.raeth.ai](https://ipl.raeth.ai)), extended them to Quant and Prediction Arena, developed Auction Arena, and maintained four live LLM evaluation platforms (Mar - Aug 2026). `FastAPI` `Next.js` `PostgreSQL` `LiteLLM`
 
 ---
 
@@ -150,7 +138,7 @@ Scene text spotting with vision-language models — multi-encoder pipeline fusin
 
 <div align="center">
 
-_building systems where models think, trade, and read the world_
+_making models read text, brains, and satellites, and checking they actually do_
 
 </div>
 
